@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after{
+
+  box-sizing: border-box;
+}
+
+body{
+    background-color : #F1EDF6 ;
+    /* overflow : hidden; */
+}
+
+
+ 
+
+
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+body {
+  background-color:#1f1f38;
+  background-image: url(./components/bg-texture.png);
+}
+
+.swiper-pagination-bullet-clickable .swiper-pagination-bullet
+{
+@apply bg-blue-400
+
+}
