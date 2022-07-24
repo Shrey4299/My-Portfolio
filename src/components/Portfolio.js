@@ -8,7 +8,7 @@ import IMG6 from "./images/1 (1).jpg";
 
 function Portfolio() {
   return (
-    <section className="h-screen  px-28 py-10  mb-28" id="portfolio">
+    <section className="h-full  px-7 md:px-28 py-10  mb-28" id="portfolio">
       <div className="flex flex-col items-center mb-8">
         <div className="text-slate-300 text-sm">
           <h5>My Recent Work</h5>
@@ -18,7 +18,7 @@ function Portfolio() {
         </div>
       </div>
 
-      <div className="grid grid-cols-3 gap-10">
+      <div className="grid md:grid-cols-3 gap-10">
         <article className="p-5 bg-indigo-900 rounded-3xl border-[1px] border-[#1f1f38] transition-all ease-in-out hover:bg-transparent hover:border-indigo-900 ">
           <div className="rounded-3xl mb-3  overflow-hidden ">
             <img className="h-[250px] object-cover" src="https://techcrunch.com/wp-content/uploads/2019/08/image-3.png" alt="" />
@@ -35,7 +35,7 @@ function Portfolio() {
               Github
             </a>
             <a
-              href="https: //dribbble.com/Alien pixels"
+              href="https://github.com/Shrey4299/Netflix-Clone"
               className="text-[#1f1f38] text-lg p-2 border-[1px] rounded-md bg-blue-400 border-[#1f1f38]"
               target=" blank"
             >
@@ -60,7 +60,7 @@ function Portfolio() {
               Github
             </a>
             <a
-              href="https: //dribbble.com/Alien pixels"
+              href="http://shoponn.herokuapp.com/"
               className="text-[#1f1f38] text-lg p-2 border-[1px] rounded-md bg-blue-400 border-[#1f1f38]"
               target=" blank"
             >
@@ -128,14 +128,14 @@ function Portfolio() {
           </h3>
           <div className="flex gap-4 mb-2">
             <a
-              href="https://github.com"
+              href="https://github.com/Shrey4299/gym-website"
               className="text-blue-400 text-lg p-2 border-[1px] rounded-md border-blue-400"
               target="_blank"
             >
               Github
             </a>
             <a
-              href="https: //dribbble.com/Alien pixels"
+              href="https://fit-life.netlify.app/"
               className="text-[#1f1f38] text-lg p-2 border-[1px] rounded-md bg-blue-400 border-[#1f1f38]"
               target=" blank"
             >
@@ -153,14 +153,14 @@ function Portfolio() {
           </h3>
           <div className="flex gap-4 mb-2">
             <a
-              href="https://github.com"
+              href="https://github.com/Shrey4299/weather-website"
               className="text-blue-400 text-lg p-2 border-[1px] rounded-md border-blue-400"
               target="_blank"
             >
               Github
             </a>
             <a
-              href="https: //dribbble.com/Alien pixels"
+              href="https://sky-wind.netlify.app/"
               className="text-[#1f1f38] text-lg p-2 border-[1px] rounded-md bg-blue-400 border-[#1f1f38]"
               target=" blank"
             >

@@ -5,7 +5,7 @@ import {BiCheck} from 'react-icons/bi'
 function Services() {
   return (
     <section
-      className=" h-screen  px-28  py-10   mb-28"
+      className=" md:h-screen  px-7 md:px-28  py-10   mb-28"
       id="service"
     >
      <div className='flex flex-col items-center mb-8'>
@@ -17,7 +17,7 @@ function Services() {
          Qualities
         </div>
             </div> 
-      <div className="grid grid-cols-2 gap-8 ">
+      <div className="grid  grid-row-2 md:grid-cols-2 gap-8 ">
         <article className="bg-indigo-900 border-[1px] border-blue-400 transition ease-in-out delay-150 hover:bg-transparent hover:border-indigo-900 overflow-hidden rounded-b-3xl ">
           <div className="bg-blue-400 p-8 rounded-b-3xl shadow-2xl overflow-hidden">
             <h3 className="text-[#1f1f38] text-md text-center">Position of Resonsibility</h3>

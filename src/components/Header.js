@@ -5,7 +5,7 @@ import ME from './images/Resume.png'
 
 function Header() {
   return (
-   <header className=' pt-10 px-28 mx-28  overflow-hidden mb-28  '>
+   <header className=' pt-10 md:px-28 mx-5 md:mx-28  overflow-hidden mb-28  '>
     <div className="mx-auto text-center items-center  relative  ">
       <h5 className='text-slate-300 mb-5 font-semibold'>Hello I'm </h5>
       <h1 className=" font-semibold text-3xl mb-5">Shreyansh Dewanagn</h1>
