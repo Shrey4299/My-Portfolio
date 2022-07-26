@@ -78,14 +78,14 @@ function Portfolio() {
           </h3>
           <div className="flex gap-4 mb-2">
             <a
-              href="https://github.com"
+              href="https://github.com/Shrey4299/Credit-Card-Fraud-Detection"
               className="text-blue-400 text-lg p-2 border-[1px] rounded-md border-blue-400"
               target="_blank"
             >
               Github
             </a>
             <a
-              href="https: //dribbble.com/Alien pixels"
+              href="https://github.com/Shrey4299/Credit-Card-Fraud-Detection"
               className="text-[#1f1f38] text-lg p-2 border-[1px] rounded-md bg-blue-400 border-[#1f1f38]"
               target=" blank"
             >
@@ -103,14 +103,14 @@ function Portfolio() {
           </h3>
           <div className="flex gap-4 mb-2">
             <a
-              href="https://github.com"
+              href="https://github.com/Shrey4299/Option-Pricing-In-ML"
               className="text-blue-400 text-lg p-2 border-[1px] rounded-md border-blue-400"
               target="_blank"
             >
               Github
             </a>
             <a
-              href="https: //dribbble.com/Alien pixels"
+              href="https://github.com/Shrey4299/Option-Pricing-In-ML"
               className="text-[#1f1f38] text-lg p-2 border-[1px] rounded-md bg-blue-400 border-[#1f1f38]"
               target=" blank"
             >
