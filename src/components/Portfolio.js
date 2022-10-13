@@ -54,7 +54,7 @@ function Portfolio() {
           </h3>
           <div className="flex gap-4 mb-2">
             <a
-              href="https://github.com"
+              href="https://github.com/Shrey4299/shop_onn"
               className="text-blue-400 text-lg p-2 border-[1px] rounded-md border-blue-400"
               target="_blank"
             >
@@ -97,21 +97,21 @@ function Portfolio() {
 
         <article className="p-5 bg-indigo-900 rounded-3xl border-[1px] border-[#1f1f38] transition-all ease-in-out hover:bg-transparent hover:border-indigo-900 ">
           <div className="rounded-3xl mb-3  overflow-hidden ">
-            <img className="h-[250px] object-cover" src="https://caltech-prod.s3.amazonaws.com/main/images/CollinCamerer-ShortSelling-0.2e16d0ba.fill-1600x810-c100.jpg" alt="" />
+            <img className="h-[250px] object-cover" src="https://www.traveldailynews.com/assets/thumbnails/0c/0c85bdb93745e2ab35a90dbc3ab77048.jpg" alt="" />
           </div>
           <h3 className="m-[1.2rem 0 2rem] mb-2 ">
-           Option Pricing in ML
+          Analysis-of-Travel-Insurance-Data
           </h3>
           <div className="flex gap-4 mb-2">
             <a
-              href="https://github.com/Shrey4299/Option-Pricing-In-ML"
+              href="https://github.com/Shrey4299/Analysis-of-Travel-Insurance-Data"
               className="text-blue-400 text-lg p-2 border-[1px] rounded-md border-blue-400"
               target="_blank"
             >
               Github
             </a>
             <a
-              href="https://github.com/Shrey4299/Option-Pricing-In-ML"
+              href="https://github.com/Shrey4299/Analysis-of-Travel-Insurance-Data"
               className="text-[#1f1f38] text-lg p-2 border-[1px] rounded-md bg-blue-400 border-[#1f1f38]"
               target=" blank"
             >
