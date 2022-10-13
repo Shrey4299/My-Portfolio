@@ -5,6 +5,7 @@ import IMG3 from "./images/portfolio3.jpg";
 import IMG4 from "./images/portfolio4.jpg";
 import IMG5 from "./images/1 (2).jpg";
 import IMG6 from "./images/1 (1).jpg";
+import IMG7 from "./images/pixel.png";
 
 function Portfolio() {
   return (
@@ -21,21 +22,21 @@ function Portfolio() {
       <div className="grid md:grid-cols-3 gap-10">
         <article className="p-5 bg-indigo-900 rounded-3xl border-[1px] border-[#1f1f38] transition-all ease-in-out hover:bg-transparent hover:border-indigo-900 ">
           <div className="rounded-3xl mb-3  overflow-hidden ">
-            <img className="h-[250px] object-cover" src="https://techcrunch.com/wp-content/uploads/2019/08/image-3.png" alt="" />
+            <img className="h-[250px] object-cover" src={IMG7} alt="" />
           </div>
           <h3 className="m-[1.2rem 0 2rem] mb-2 ">
-            Netflix Clone 
+            Pixel verse
           </h3>
           <div className="flex gap-4 mb-2">
             <a
-              href="https://github.com/Shrey4299/Netflix-Clone"
+              href="https://github.com/Shrey4299/pixelverse"
               className="text-blue-400 text-lg p-2 border-[1px] rounded-md border-blue-400"
               target="_blank"
             >
               Github
             </a>
             <a
-              href="https://github.com/Shrey4299/Netflix-Clone"
+              href="https://pixelverse.herokuapp.com/"
               className="text-[#1f1f38] text-lg p-2 border-[1px] rounded-md bg-blue-400 border-[#1f1f38]"
               target=" blank"
             >
