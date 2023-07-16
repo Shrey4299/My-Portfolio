@@ -7,7 +7,7 @@ const Experience = () => {
 
       <div className='flex flex-col items-center mb-8' >
       <h5 className="text-slate-300 text-sm">What Skills I Have</h5>
-      <h2 className="text-blue-400 text-3xl">My Experience</h2>
+      <h2 className="text-blue-400 text-3xl">My Expertise</h2>
 
       </div>
 
@@ -19,7 +19,7 @@ const Experience = () => {
               <BsPatchCheckFill className="text-blue-400 mt-2"/>
               <div>
 
-              <h4>HTML | CSS</h4>
+              <h4>Djangao</h4>
               <small>Experienced</small>
               </div>
             </article>
@@ -28,15 +28,23 @@ const Experience = () => {
 
               <div>
 
-              <h4>JavaScript </h4>
-              <small>Intermediate </small>
+              <h4>React Js </h4>
+              <small>Experienced </small>
               </div>
             </article>
             <article className="flex gap-4  ">
           <BsPatchCheckFill className="text-blue-400 mt-2"/>
               <div>
 
-              <h4>Bootstrap|Tailwind</h4>
+              <h4>Node Js | Spring</h4>
+              <small>Intermediate</small>
+              </div>
+            </article>
+            <article className="flex gap-4  ">
+          <BsPatchCheckFill className="text-blue-400 mt-2"/>
+              <div>
+
+              <h4>Javascript</h4>
               <small>Experienced</small>
               </div>
             </article>
@@ -44,7 +52,8 @@ const Experience = () => {
           <BsPatchCheckFill className="text-blue-400 mt-2"/>
               <div>
 
-              <h4>Node js</h4>
+
+              <h4>MongoDB | SQL </h4>
               <small>Experienced</small>
               </div>
             </article>
@@ -52,16 +61,7 @@ const Experience = () => {
           <BsPatchCheckFill className="text-blue-400 mt-2"/>
               <div>
 
-
-              <h4>MongoDB </h4>
-              <small>Experienced</small>
-              </div>
-            </article>
-            <article className="flex gap-4  ">
-          <BsPatchCheckFill className="text-blue-400 mt-2"/>
-              <div>
-
-              <h4>react</h4>
+              <h4> HTML | CSS</h4>
               <small>Experienced</small>
               </div>
             </article>
@@ -84,8 +84,8 @@ const Experience = () => {
 
               <div>
 
-              <h4> SQL </h4>
-              <small>Intermediate </small>
+              <h4> Java </h4>
+              <small>Experienced </small>
               </div>
             </article>
             <article className="flex gap-4  ">
@@ -93,7 +93,7 @@ const Experience = () => {
 
               <div>
 
-              <h4>Javascript|Python </h4>
+              <h4>Python </h4>
               <small>Experienced</small>
               </div>
             </article>
@@ -101,14 +101,14 @@ const Experience = () => {
           <BsPatchCheckFill className="text-blue-400 mt-2"/>
               <div>
                 
-                <h4>Pandas | Numpy</h4>
-              <small>Experienced</small>
+                <h4> RestAssured</h4>
+              <small>Intermediate</small>
                 </div>
             </article>
             <article className="flex gap-4  ">
           <BsPatchCheckFill className="text-blue-400 mt-2"/>
               <div>
-              <h4>MongoDB | MySQL  </h4>
+              <h4> TestNG  </h4>
 
               <small>Experienced</small>
               </div>
@@ -116,7 +116,7 @@ const Experience = () => {
             <article className="flex gap-4  ">
           <BsPatchCheckFill className="text-blue-400 mt-2"/>
               <div>
-              <h4>Tableau | hive</h4>
+              <h4>Linux | Git</h4>
 
               <small>Experienced</small>
               </div>
