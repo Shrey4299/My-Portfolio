@@ -19,7 +19,7 @@ const Experience = () => {
               <BsPatchCheckFill className="text-blue-400 mt-2"/>
               <div>
 
-              <h4>Djangao</h4>
+              <h4>Django</h4>
               <small>Experienced</small>
               </div>
             </article>
@@ -36,7 +36,7 @@ const Experience = () => {
           <BsPatchCheckFill className="text-blue-400 mt-2"/>
               <div>
 
-              <h4>Node Js | Spring</h4>
+              <h4>Node Js </h4>
               <small>Intermediate</small>
               </div>
             </article>
@@ -44,7 +44,7 @@ const Experience = () => {
           <BsPatchCheckFill className="text-blue-400 mt-2"/>
               <div>
 
-              <h4>Javascript</h4>
+              <h4>FastAPI</h4>
               <small>Experienced</small>
               </div>
             </article>
@@ -75,7 +75,7 @@ const Experience = () => {
           <BsPatchCheckFill className="text-blue-400 mt-2"/>
               <div>
 
-              <h4> C | C++  </h4>
+              <h4> Python  </h4>
               <small>Experienced</small>
               </div>
             </article>
@@ -84,7 +84,7 @@ const Experience = () => {
 
               <div>
 
-              <h4> Java </h4>
+              <h4> Javascript </h4>
               <small>Experienced </small>
               </div>
             </article>
@@ -93,7 +93,7 @@ const Experience = () => {
 
               <div>
 
-              <h4>Python </h4>
+              <h4>Docker </h4>
               <small>Experienced</small>
               </div>
             </article>
@@ -101,14 +101,14 @@ const Experience = () => {
           <BsPatchCheckFill className="text-blue-400 mt-2"/>
               <div>
                 
-                <h4> RestAssured</h4>
+                <h4> AWS</h4>
               <small>Intermediate</small>
                 </div>
             </article>
             <article className="flex gap-4  ">
           <BsPatchCheckFill className="text-blue-400 mt-2"/>
               <div>
-              <h4> TestNG  </h4>
+              <h4> Nginx  </h4>
 
               <small>Experienced</small>
               </div>

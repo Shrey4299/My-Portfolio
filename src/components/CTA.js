@@ -1,7 +1,7 @@
 import React from 'react';
 
 function CTA() {
-  const CV = "http://bit.ly/shreyansh_resume_cv"; // Updated CV link
+  const CV = "https://drive.google.com/file/d/1qhKIAo06ZPqHdBp8r5zWE1--f0drswgg/view?usp=sharing"; // Updated CV link
   const email = "shreyanshdewangan4299@gmail.com"; // Your email address
 
   return (
