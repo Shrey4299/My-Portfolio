@@ -34,7 +34,7 @@ function Header() {
             let j = 0;
             const secondIntervalId = setInterval(() => {
               setSecondText((prev) => prev + secondFullText[j]); // Append next character
-              playTypingSound(); // Play typing sound on each character
+              // playTypingSound(); // Play typing sound on each character
               j += 1;
               if (j === secondFullText.length) {
                 clearInterval(secondIntervalId); // Stop typing once second text is typed
@@ -43,7 +43,6 @@ function Header() {
                   setIsSoftwareVisible(true);
                 }, 500); // 200ms delay before showing "Software Developer"
               }
-
             }, 50); // Typing speed for the second text
           }, 500); // 500ms delay before starting the second typing effect
         }
@@ -59,12 +58,17 @@ function Header() {
     const simulateClick = () => {
       // Trigger typing sound and effect after a small delay
       playTypingSound();
+
+      const timeout = setTimeout(() => {
+        typingSound.pause();
+        clearTimeout(timeout);
+      }, 4000);
     };
 
     // Simulate click after a slight delay when the page loads
     setTimeout(() => {
       simulateClick();
-    }, 100); // Trigger after 500ms delay to simulate "page load"
+    }, 600); // Trigger after 500ms delay to simulate "page load"
   }, []); // Empty dependency array to ensure this runs only once
 
   return (
